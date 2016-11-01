@@ -3,7 +3,7 @@ import subprocess
 
 subprocess.call(["pip", "install", "PySide"])
 
-from PySide.QtCore import QtCore, QtGui
+from PySide import QtCore, QtGui
 
 # Create a Qt application
 app = QtCore.QApplication(sys.argv)
