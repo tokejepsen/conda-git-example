@@ -1,9 +1,9 @@
 import sys
 import subprocess
 
-subprocess.call(["pip", "install", "PySide"])
+subprocess.call(["conda", "install", "-c", "anaconda", "pyside", "-y"])
 
-from PySide import QtCore, QtGui
+from PySide import QtGui
 
 # Create a Qt application
 app = QtGui.QApplication(sys.argv)
