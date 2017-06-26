@@ -2,5 +2,5 @@ name: conda-git-example
 dependencies:
 - python=2.7
 - git:
-  - https://github.com/heyhuyen/python-game.git:
-    - python $REPO_PATH/my_game.py
+  - https://github.com/tokejepsen/conda-git-example.git:
+    - python $REPO_PATH/environment.py
